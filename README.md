@@ -63,13 +63,13 @@ Here's an example of how to interact with the contract:
 mint(address(0xRecipientAddress), 100);
 ```
 - Burn 50 tokens
-## Contributors
 ```solidity
 burn(address(0xHolderAddress), 50);
 ```
+
+## Contributors
 - **Vincent Paul Quieng** - Developer 
 
 ## License 
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
