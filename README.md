@@ -60,11 +60,11 @@ Here's an example of how to interact with the contract:
 
 - Mint 100 tokens:
 ```solidity
-mint(address(0x_toAddress), 100);
+mint(0x_toAddress, 100);
 ```
 - Burn 50 tokens
 ```solidity
-burn(address(0x_fromAddress), 50);
+burn(0x_fromAddress, 50);
 ```
 
 ## Contributors
