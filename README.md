@@ -20,14 +20,14 @@
 
 ### Functions
 
-#### 1. `mint(address _to, uint256 _amount)`
+#### 1. mint(address _to, uint256 _amount)
 The `mint` function allows for the creation of new tokens. It increases the total supply and adds the minted tokens to the balance of the specified address.
 
 ```solidity
 function mint(address _to, uint256 _amount) public;
 ```
 
-#### 2. 'burn(address _from, uint256 _amount)
+#### 2. burn(address _from, uint256 _amount)
 The 'burn' function destroys tokens. It decreases the total supply and reduces the balance of the specified address. It ensures that an address has sufficient tokens before burning them.
 
 ```solidity
