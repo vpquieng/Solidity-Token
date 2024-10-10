@@ -64,8 +64,9 @@ mint(address(0xRecipientAddress), 100);
 ```
 - Burn 50 tokens
 ## Contributors
+```solidity
 burn(address(0xHolderAddress), 50);
-
+```
 - **Vincent Paul Quieng** - Developer 
 
 ## License 
